@@ -43,6 +43,9 @@
   cursor: pointer;
   border-radius: 2px;
 }
+.devInfo button a {
+  color: inherit;
+}
 .devInfo p b a {
   color: white;
   text-decoration: underline;

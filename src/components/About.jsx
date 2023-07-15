@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import ResumePdf from '../assets/resumePdf.pdf'
 
 function About() {
   return (
@@ -58,7 +59,7 @@ function About() {
           data-aos-duration="800"
           data-aos-easing="ease-in-out"
         >
-          Resume
+          <a href={ResumePdf} download="RESUME">Resume</a>
         </button>
       </div>
     </section>
