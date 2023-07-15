@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../styles/home.css";
 import Contact from "./Contact";
 import { useTypewriter , Cursor } from "react-simple-typewriter";
+import ResumePdf from '../assets/resumePdf.pdf'
 
 function Home() {
   const [text] = useTypewriter({
@@ -30,7 +31,9 @@ function Home() {
           <button href>
             <a href="#about">Explore</a>
           </button>
-          <button>Resume</button>
+          <button>
+            <a href={ResumePdf} download="RESUME">Resume</a>
+          </button>
         </div>
       </div>
       <img
