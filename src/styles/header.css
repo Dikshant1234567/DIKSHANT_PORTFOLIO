@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,200;1,900&family=Roboto+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Ysabeau+Infant:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Genos:ital,wght@1,200;1,900&family=Roboto+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Ysabeau+Infant:wght@500;600&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1rem;
+  background-color: beige;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: -2px 2px 6px #00000091;
+  height: 5rem;
+  overflow-x: hidden;
+  width: 100%;
+}
+.header h1 {
+  margin: 0 2rem;
+  font-size: 40px;
+  color: #a624ff;
+  font-family: "Fasthand";
+  letter-spacing: 2px;
+}
+.header ul {
+  margin: 10px 2rem;
+  display: flex;
+  align-items: center;
+}
+.header ul li {
+  margin: 20px 1.5rem;
+  font-size: 20px;
+  font-family: "Ysabeau Infant";
+  cursor: pointer;
+  font-weight: 600;
+}
+.header ul li a {
+  color: inherit;
+  padding: 0 2px;
+  position: relative;
+}
+.header ul li a:hover {
+  color: #15a6a6;
+}
+
+.header ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #a624ff;
+  width: 0%;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+  bottom: -2px;
+  left: 0;
+  border-radius: 10px;
+}
+.header ul li a:hover:after {
+  width: 70%;
+}
+.header ul li a:focus {
+  width: 70%;
+  color: #15a6a6;
+}
+
+.nav-menu-icon {
+  color: black;
+  position: absolute;
+  right: 2rem;
+  display: none;
+  cursor: pointer;
+  top: 1.8rem;
+}
+.nav-close-icon {
+  display: none;
+  cursor: pointer;
+}
+.nav-menu-icon-container,
+.nav-close-icon-container {
+  display: none;
+}

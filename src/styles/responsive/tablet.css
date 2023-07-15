@@ -1,0 +1,182 @@
+@media (626px <=width <=1024px) {
+  #home {
+    height: max-content;
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 10%;
+  }
+  #home div {
+    width: 35%;
+    color: #15a6a6;
+    font-size: 2.5rem;
+    padding: 10% 5% 10% 6%;
+    font-family: "Belanosima";
+  }
+  #home div span {
+    font-size: 1.7rem;
+  }
+  .buttongroup {
+    margin-top: 2rem;
+    margin-left: -12px;
+  }
+  .buttongroup button {
+    padding: 0.3rem 1.5rem;
+    margin-right: 1rem;
+    font-size: 14px;
+  }
+  #home img {
+    width: 35%;
+    height: auto;
+    margin: 10% 5% 10% 25%;
+  }
+
+  /* ABOUT START */
+  #about {
+    height: max-content;
+    padding: 5%;
+    padding-bottom: 35%;
+  }
+  .devInfo {
+    margin: 0rem;
+    padding-top: 2px;
+  }
+  .devInfo h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .devInfo p {
+    font-size: 20px;
+  }
+
+  /* ABOUT END */
+
+  /* skill START */
+  .skill-box {
+    width: 90%;
+    height: 18rem;
+    transform: translateY(-45%);
+  }
+  .skill-box h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+  .list h3 {
+    font-size: 1.5rem;
+  }
+  .list ul li {
+    font-size: 14px;
+  }
+  /* SKILL END */
+
+  /* project start */
+  #project {
+    height: max-content;
+  }
+  #project h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .projectItem {
+    padding: 2%;
+    gap: 2%;
+    display: block;
+  }
+  .project-img {
+    width: 100%;
+    height: 20%;
+    padding: 0;
+    border: 0;
+  }
+  /* .project-img img {
+        width: 100%;
+    } */
+  .project-img img {
+    width: 46%;
+    margin: auto;
+    margin-left: 27%;
+  }
+  .project-info {
+    width: 100%;
+    padding: 4%;
+  }
+  .project-info h2 {
+    font-size: 2rem;
+  }
+  .project-info p {
+    font-size: 16px;
+  }
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+  .project-info ul li {
+    font-size: 16px;
+  }
+  /* project end */
+
+  /* EDUCATION START */
+  #education {
+    height: max-content;
+    background-color: #eaf6f6;
+    padding: 2rem;
+  }
+  .education-info {
+    height: max-content;
+    width: 100%;
+    color: black;
+    padding: 3rem 0rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .education-info div {
+    width: 31%;
+    height: 12rem;
+  }
+  /* header css  START */
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .nav-menu-icon-container,
+  .nav-close-icon-container {
+    display: block;
+  }
+  .nav-close-icon {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+    right: 87%;
+    top: 1rem;
+  }
+  .show-menu {
+    position: fixed;
+    flex-direction: column;
+    margin: 0;
+    top: -10px;
+    height: 100vh;
+    background: beige;
+    width: 60%;
+    right: -6%;
+    transition: all 0.5s ease-in-out;
+    z-index: 10001;
+  }
+  .nav-item {
+    position: fixed;
+    flex-direction: column;
+    margin: 0;
+    top: 0;
+    height: 100vh;
+    background: beige;
+    width: 60%;
+    right: -68%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .header ul li {
+    margin: 3rem 1.5rem;
+  }
+  /* HEADER CSS END */
+}

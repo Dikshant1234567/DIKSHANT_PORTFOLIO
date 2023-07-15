@@ -1,0 +1,259 @@
+@media (max-width: 625px) {
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  .header {
+    overflow-x: hidden;
+  }
+
+  /* HOME CSS START */
+  #home {
+    display: block;
+    padding:12% 6%;
+  }
+  #home div {
+    width: 100%;
+    font-size: 2rem;
+    padding: 4%;
+  }
+  #home div span {
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+    font-weight: 800;
+    white-space: normal;
+  }
+  #home img {
+    width: 85%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 50%;
+    margin-left: 5%;
+  }
+  .buttongroup {
+    padding: 0;
+    margin-left: -4%;
+  }
+
+  .buttongroup button {
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    margin-top: 0rem;
+    letter-spacing: 0.2px;
+  }
+  /*  HOME CSS END  */
+
+  /* ABOUT CSS START */
+  #about {
+    width: 100% !important;
+    height: max-content;
+    padding: 5%;
+  }
+
+  .devInfo {
+    margin: 0rem;
+    padding-top: 0;
+    overflow-y: hidden;
+    padding-bottom: 80%;
+  }
+  .devInfo h1 {
+    font-size: 2rem;
+  }
+  .devInfo p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .devInfo p b {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .devInfo p b a {
+    font-size: 14px;
+  }
+  .devInfo button {
+    font-size: 12px;
+  }
+  /* ABOUT CSS END */
+
+  /* SKILL CSS START */
+  #skills {
+    width: 100%;
+    background-color: #eaf6f6;
+    z-index: -1;
+  }
+  .skill-box {
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    transform: translateY(-40%);
+    border-radius: 5px;
+    box-shadow: -3px 5px 12px #e7dddddb;
+    padding-bottom: 2rem;
+  }
+  .skill-box h1 {
+    font-size: 2.2rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+  .list h3 {
+    font-size: 22px;
+  }
+  .list {
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .list div {
+    margin-left: 2rem;
+  }
+
+  /* SKILL CSS END */
+
+  /* project CSS START */
+  #project {
+    width: 100%;
+    height: max-content;
+    background-color: #eaf6f6;
+  }
+  #project h1 {
+    font-size: 2rem;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  .projectItem {
+    display: block;
+
+    width: 80%;
+    padding: 0;
+  }
+  .project-img {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0;
+    border: 0;
+  }
+  .project-img img {
+    height: auto;
+    width: 100%;
+  }
+  .project-info {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-info h2 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+  }
+  .project-info p {
+    font-size: 14px;
+  }
+  .project-info h3 {
+    font-size: 16px;
+  }
+  /* PROJECT CSS END */
+
+  /* EDUCATION CSS START */
+  #education {
+    height: max-content;
+    background-color: #eaf6f6;
+    padding: 7%;
+  }
+  #education h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .education-info {
+    height: max-content;
+    width: 100%;
+    padding: 3%;
+    display: block;
+  }
+  .education-info div {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  /* EDUCATION CSS END */
+
+  /* FOOTER CSS START */
+  .footer {
+    background-color: #15a6a6;
+    height: max-content;
+    display: block;
+    padding: 5%;
+    color: white;
+    align-items: center;
+  }
+  .footer h3 {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  /* FOOTER CSS END */
+
+  /* nav START */
+  .contact {
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+    background-color: transparent;
+    width: 10vw;
+    z-index: 10000;
+    transition: all 0.8s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  #nav-contact button svg {
+    font-size: 20px;
+  }
+
+  /* NAV END */
+
+  /* HEADER CSS START */
+  /* .header{
+    height: 100vh;
+  } */
+  .header h1 {
+    font-size: 2rem;
+  }
+  .nav-menu-icon-container,
+  .nav-close-icon-container {
+    display: block;
+  }
+  .nav-close-icon {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+    right: 87%;
+    top: 1rem;
+  }
+  .show-menu  {
+    position: fixed;
+    flex-direction: column;
+    margin: 0;
+    top: -10px;
+    height: 100vh;
+    background: beige;
+    width: 60%;
+    right: -10%;
+    transition: all .5s ease-in-out;
+    z-index: 10001;
+}
+  .nav-item {
+    position: fixed;
+    flex-direction: column;
+    margin: 0;
+    top: 0;
+    height: 100vh;
+    background: beige;
+    width: 60%;
+    right: -88%;
+    transition: all .5s ease-in-out;
+  }
+  
+  .header ul li {
+    margin: 3rem 1.5rem;
+}
+  /* HEADER CSS END */
+}

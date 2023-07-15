@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Genos:ital,wght@1,200;1,900&family=Roboto+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Ysabeau+Infant:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Genos:ital,wght@1,200;1,900&family=Roboto+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Ysabeau+Infant:wght@500;600&family=Ysabeau+SC:wght@400;500;600;700;800&display=swap");
+
+#home {
+  display: flex;
+  margin-top: 5rem;
+}
+#home div {
+  width: 60%;
+  color: #15a6a6;
+  font-size: 65px;
+  padding: 10% 2% 10% 13%;
+  font-family: "Belanosima";
+}
+#home div span {
+  color: #141c3a;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  font-family: "Ysabeau SC", sans-serif;
+  animation: typing 3.5s infinite steps(50, end),
+    blink-caret 0.5s step-end infinite;
+  white-space: nowrap;
+}
+
+
+.profession {
+  font-size: 30px;
+  height: 30px !important;
+  word-wrap: break-word;
+}
+.buttongroup {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 0rem;
+  margin-left: -13%;
+}
+.buttongroup button {
+  padding: 0.5rem 2rem;
+  margin-right: 2rem;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: -2rem;
+  background-color: #a624ff;
+  color: white;
+  border: 0;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+}
+.buttongroup button a{
+  color: inherit;
+}
+#home img {
+  width: 350px;
+  height: 350px;
+  margin-top: 8%;
+  border-radius: 50%;
+}
+.contact {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  background-color: transparent;
+  width: 10vw;
+  z-index: 10000;
+}

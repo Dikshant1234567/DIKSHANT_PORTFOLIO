@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Fasthand&family=Genos:ital,wght@1,200;1,900&family=Jost:ital,wght@0,400;0,500;0,600;1,400&family=Kablammo&family=Pacifico&family=Roboto+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Signika+Negative:wght@300;400;500;600&family=Ysabeau+Infant:wght@500;600&family=Ysabeau+SC:wght@400;500;600;700;800&display=swap");
+
+#skills {
+  width: 100%;
+  background-color: #eaf6f6;
+  z-index: -1;
+}
+.skill-box {
+  margin: auto;
+  width: 80%;
+  height: 18rem;
+  background-color: white;
+  transform: translateY(-40%);
+  border-radius: 5px;
+  box-shadow: -3px 5px 12px #e7dddddb;
+}
+.skill-box h1 {
+  font-size: 45px;
+  margin: 0 1rem 1rem 4rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.list h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+.list ul {
+  margin-left: 1rem;
+}
+.list ul li {
+  list-style-type: square;
+  margin-top: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
