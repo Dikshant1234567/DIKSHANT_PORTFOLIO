@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProjectItem from "./ProjectItem";
 import "../styles/project.css";
+import openaiImage from "../assets/openai.png";
 
 const responsive = {
   superLargeDesktop: {
@@ -25,7 +26,19 @@ const responsive = {
 
 const Data = [
   {
-    // img: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/whats-app-1-design-template-05f1215e07ed5b8207a19627c5509371_screen.jpg?ts=1592728794",
+    img: openaiImage,
+    title: "ai-image generator",
+    mixCss: "darken",
+    description:
+      "You can enter the prompt to generate a high quality image for to download for free and also can share to the community. ",
+    linkToSite: "https://ai-image-generator-dikshant.netlify.app/",
+    techStack: {
+      1: "MERN",
+      2: "OpenAi",
+      3: "Tailwind",
+    },
+  },
+  {
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png",
     title: "WhatsApp-clone",
     mixCss: "darken",
@@ -35,12 +48,11 @@ const Data = [
     techStack: {
       1: "MERN",
       2: "MUI",
-      3: "Soket.io"
+      3: "Soket.io",
     },
   },
   {
-    // img: "https://images.squarespace-cdn.com/content/v1/5e8d65fd1b8f0c5457e8a687/1588925699853-NE60MQOHRBCD4VRVP2AG/2020-05-08_12-35-11.png",
-    img : "https://i.pinimg.com/originals/aa/70/8d/aa708d1f97a04f6f5a208213f89e1e67.png",
+    img: "https://i.pinimg.com/originals/aa/70/8d/aa708d1f97a04f6f5a208213f89e1e67.png",
     title: "Flipkart-clone",
     mixCss: "darken",
     description:
@@ -53,8 +65,7 @@ const Data = [
     },
   },
   {
-    // img: "https://i.pcmag.com/imagery/roundups/03yy022DDsenwhBBYdxvwDi-3..v1593631883.jpg",
-    img: 'https://w7.pngwing.com/pngs/886/137/png-transparent-file-sharing-file-hosting-service-box-secure-miscellaneous-text-logo.png',
+    img: "https://w7.pngwing.com/pngs/886/137/png-transparent-file-sharing-file-hosting-service-box-secure-miscellaneous-text-logo.png",
     title: "Online File-sharing Application",
     mixCss: "hard-light",
     description:
@@ -67,9 +78,7 @@ const Data = [
     },
   },
   {
-    // img: "https://w7.pngwing.com/pngs/205/164/png-transparent-hotel-motel-gratis-hotel-text-presentation-logo.png",
-    
-    img: 'https://img.freepik.com/free-vector/hotel-booking-concept-illustration_114360-2257.jpg?w=2000',
+    img: "https://img.freepik.com/free-vector/hotel-booking-concept-illustration_114360-2257.jpg?w=2000",
     title: "Mini Room-Booking",
     mixCss: "darken",
     description:
@@ -104,11 +113,9 @@ function Project() {
         autoPlaySpeed={200}
         arrows={false}
       >
-        {
-          Data.map((value)=><ProjectItem value={value} />)
-        }
-        
-
+        {Data.map((value) => (
+          <ProjectItem value={value} />
+        ))}
       </Carousel>
     </section>
   );
