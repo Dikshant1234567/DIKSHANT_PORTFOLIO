@@ -30,7 +30,7 @@ const Data = [
     title: "ai-image generator",
     mixCss: "darken",
     description:
-      "You can enter the prompt to generate a high quality image for to download for free and also can share to the community. ",
+      "You can enter the prompt to generate a high quality image for your download for free and also can share to the community. ",
     linkToSite: "https://ai-image-generator-dikshant.netlify.app/",
     techStack: {
       1: "MERN",
